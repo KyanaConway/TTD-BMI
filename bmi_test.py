@@ -24,5 +24,3 @@ def test_calculate_bmi_obese():
     bmi, category = calculate_bmi(5, 0, 200)  # height: 5 feet 0 inches, weight: 200 pounds
     assert bmi == pytest.approx(39.2, 0.1)  # Approximate BMI value
     assert category == 'Obese'  # Verify the BMI category
-
-# Add more test cases as needed for edge cases, boundary conditions, and other scenarios
